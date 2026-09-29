@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Solutions – Synvora IT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./sol.css">
+
+</head>
+<body>
+<div class="top"><div class="wrap">
+  <a class="logo" href="#">Synvora<i>.</i></a>
+  <nav aria-label="Main"><a href="#">Home</a><a href="#" aria-current="page">Solutions</a><a href="#work">Work</a><a href="#faq">FAQ</a><a class="pill" href="#contact">Contact</a></nav>
+</div></div>
+
+<main>
+<section class="banner" aria-labelledby="banner-h">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="eyebrow">Digital solutions from Synvora IT</p>
+    <h1 id="banner-h">The right solution<br>for every problem<br>your business faces</h1>
+    <p class="lead">Websites, Cyber Security, Ui/Ux, design and AI assistants. Choose the problem you have, and see how Synvora IT solves it.</p>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="finder">
+    <div class="probs" role="tablist" aria-label="Business problems"><h2>My business needs to…</h2></div>
+    <div class="panel" id="panel" role="tabpanel" aria-live="polite"></div>
+  </div>
+
+  <section class="sec" id="work" aria-labelledby="work-h">
+    <h2 id="work-h">Selected work</h2>
+    <p class="sub">A few things we have built, so you can see the kind of work behind each solution.</p>
+    <ul class="work">
+      <li><h3>Moila Daoa Niya</h3><p>A waste management app that connects households with collection services.</p><span class="k">Mobile app</span></li>
+      <li><h3>EduPulse</h3><p>An interactive dashboard that tracks student progress at a glance.</p><span class="k">Dashboard</span></li>
+      <li><h3>Emergency Service</h3><p>A Flutter app that puts emergency contacts one tap away, in Bangla and English.</p><span class="k">Mobile app</span></li>
+      <li><h3>Security portfolio site</h3><p>A terminal-style personal site with a 3D holographic variant for a cybersecurity professional.</p><span class="k">Website</span></li>
+    </ul>
+  </section>
+
+  <section class="how" aria-labelledby="how-h">
+    <h2 id="how-h">How a project runs</h2>
+    <ol class="steps">
+      <li><h3>Talk</h3><p>We listen to your problem and agree on what "done" looks like.</p></li>
+      <li><h3>Design</h3><p>You see the screens and the price before we write code.</p></li>
+      <li><h3>Build</h3><p>You get a working version every week, not one big reveal.</p></li>
+      <li><h3>Support</h3><p>We launch, train your team and fix issues after go-live.</p></li>
+    </ol>
+  </section>
+
+  <section class="sec" id="plan" aria-labelledby="plan-h">
+    <h2 id="plan-h">Plan your project</h2>
+    <p class="sub">Choose what you need. We turn it into a brief you can send in one click.</p>
+    <div class="plan">
+      <div class="grp"><h3>What do you need?</h3><div class="chips" id="pSvc"></div></div>
+      <div class="grp"><h3>When do you need it?</h3><div class="chips" id="pTime"></div></div>
+      <div class="grp"><h3>What problem are you solving?</h3><textarea id="pMsg" aria-label="Your problem" placeholder="Example: I run a small shop and track orders in a notebook."></textarea></div>
+      <div class="grp row"><input id="pName" aria-label="Your name" placeholder="Your name"><input id="pContact" aria-label="Phone or email" placeholder="Phone or email"></div>
+      <div class="acts"><button class="send" id="pSend">Send brief by email</button><button class="copy" id="pCopy">Copy brief</button><span class="note" id="pNote" role="status"></span></div>
+    </div>
+  </section>
+
+  <section class="sec" id="faq" aria-labelledby="faq-h">
+    <h2 id="faq-h">Questions we hear often</h2>
+    <p class="sub"></p>
+    <div class="faq">
+      <details><summary>How long does a project take?</summary><p>Most small websites take one to three weeks and apps take longer. After the first call you get a fixed timeline in writing.</p></details>
+      <details><summary>Can you work with Bangla text?</summary><p>Yes. Websites, apps and PDF reports are built with proper Bangla font rendering, so text never breaks or shows boxes.</p></details>
+      <details><summary>Will my app work without internet?</summary><p>It can. We build apps offline-first, so people keep working and data syncs when the connection returns.</p></details>
+      <details><summary>What do I need to start?</summary><p>Only a clear description of your problem. You do not need designs, a technical plan or a budget figure.</p></details>
+      <details><summary>Do you help after launch?</summary><p>Yes. We fix issues, train your team and add features as your business grows.</p></details>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div>
+      <h2>Not sure which one fits?</h2>
+      <p>Describe your problem in Bangla or English. We will reply with a plan and a price.</p>
+    </div>
+    <a class="btn" href="mailto:hello@synvora.it">Send your problem</a>
+  </section>
+</div>
+</main>
+<footer><div class="wrap"><span>© Synvora IT</span><span>Dhaka, Bangladesh</span></div></footer>
+
+<script src="./sol.js"></script>
+</body>
+</html>
